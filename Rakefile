@@ -53,9 +53,17 @@ task :github => :generate do
   remote = load_config["github"]
 
   tmp = "/tmp/checkout-#{Time.now.to_i}"
-  git = Git.clone(remote, tmp, :log => Logger.new(STDOUT))
+  git = Git.clone(remote, tmp, :log => Logger.new(STDOUT)) 
 
   git.branch("gh-pages").checkout
+
+  begin
+    #hack for ruby-git's pull command can't correctlly fetch remote branch
+    #https://github.com/schacon/ruby-git/issues/32
+    git.lib.send(:command, 'pull origin gh-pages')
+  rescue
+    puts "pull fail"
+  end
 
   git.remove("*",:recursive => true)
   system "cp -Rf #{root}/public/ #{tmp}/"

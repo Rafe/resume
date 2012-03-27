@@ -76,7 +76,7 @@ August 2007 - October 2008
 [parser]: https://github.com/Rafe/Crow 
 [Footpon]: http://neethack.com/Footpon/
 [OCR program]: https://github.com/Rafe/Simple-OCR
-[Rails Source analysis and security report]: https://github.com/Rafe/RailsSerucity
+[Rails Source analysis and security report]: https://github.com/Rafe/rails_serucity
 [masxaro]: http://www.getmasxaro.com
 [mail_parser]: http://github.com/Rafe/mail_parser
 [indexbuilder]: https://github.com/Rafe/IndexEngine
