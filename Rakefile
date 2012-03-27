@@ -33,7 +33,7 @@ desc "publish the static files to gh-page"
 task :github => [:generate] do
   require 'git'
 
-  remote = "git://"
+  remote = "git@github.com:Rafe/resume.git"
   tmp = "tmp/checkout-#{Time.now.to_i}"
   git = Git.clone(remote, tmp, :log => Logger.new(STDOUT))
 
