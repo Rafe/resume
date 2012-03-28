@@ -34,10 +34,18 @@ task :generate do
 
   File.open("public/index.html", "w") { |f| f.write(page) }
 
-  PDFKit.new(resume, :page_size => 'A4') do |pdf|
-    pdf.stylesheets << "public/style.css" 
-    pdf.to_file('public/resume.pdf')
+  PDFKit.configure do |config|
+    config.default_options = {
+      :page_size     => 'A4',
+      :print_media_type => true,
+      :margin_top => '0.2',
+      :margin_bottom => '0.2',
+    }
   end
+
+  pdf = PDFKit.new(resume)
+  pdf.stylesheets << "public/print.css" 
+  pdf.to_file('public/resume.pdf')
 
   system "cp #{root}/resume.md #{root}/public/resume.txt"
 

@@ -1,0 +1,83 @@
+# JIMMY TE-CHUN CHAO
+
+Github: [github.com/Rafe](http://github.com/Rafe)  -- mail: [daizenga@gmail.com](mailto:daizenga@gmail.com) -- Tel: 646-409-107
+
+## Goal
+
+To develop good product that make people's life easier under agile, TDD and modern web frameworks.
+
+## Education
+
+### Master of Computer Science
+
+#### August 2010 - January 2012
+
+### Polytechnic Institute of New York University
+
+* Built [IndexBuilder], a custom Search Engine and [parser] in Python on Web Search Engine Course.
+* Created [Footpon], an application that combine pedometer and coupon on Android, in Mobile Application Development course.
+* Build [OCR program] in Computer Vision Course.
+* Write [Rails Source analysis and security report] on Penetration Testing Course.
+> Other Courses taken: Computer Graphic, Modern Cryptography, Design and Analysis of Algorithm. Computer Architecture.
+
+### Bachelor of Information System
+
+#### September 2003 - June 2007
+
+### Cheng-Chi University
+
+* Attended IBM SOA development competition, Leading a team of 5 to build a collaborative web-based investment platform to provide projections of risk and portfolio strategies. Advance to final 8 out of 52 teams.
+
+## Experience
+
+### [Masxaro]
+
+#### June 2011 - August 2011, January 2012 - current
+
+### _Software Engineer_
+
+* Work in an intense start-up environment with Agile development process.
+* Built RESTful api and backend with Ruby on Rails and Postgresql. Deploy service on Heroku and Amazon EC2.
+* Develop Front-end with Backbone.js and bootstrap.
+* Published email parsing module as rubygem [`mail_parser`][mail_parser].
+
+### Hung-Yong Software. Taiwan
+
+#### Febuary 2010 - August 2010 
+
+### _Technical Advisor_
+
+* Built Online Survey system for Taiwan Mobile, using ASP.NET MVC and Entity Framework.
+* Set up Continuous Integration Server, automate deployment and testing process for the team, shorten the development time and significant reduce integration problems.
+
+### Career, Inc. Taiwan
+#### April 2009 - December 2009
+### Software Engineer
+
+* Work on Job Search engine and portal website with ASP.NET and MSSQL, facing 10k users and hosting 200 jobs per month.
+
+### 261 Squadron, Taiwan Navy
+
+#### August 2007 - October 2008
+
+### _Information Officer_
+
+* Managed network infrustructure and servers in 261 Squadron.
+
+## Skills
+
+### Languages
+> Fluent in: Java , Ruby, Javascript, Python, C.  
+  Experienced with: C++, C#, Obj-C, PHP, VB, Scheme.
+  
+### Software Development
+> Experience in modern software tools include git, Vim, Eclipse, Visual Studio.  
+  Modern development paradigm in Agile, Scrum, TDD, BDD, Refactor and Design Pattern.
+
+[parser]: https://github.com/Rafe/Crow 
+[Footpon]: http://neethack.com/Footpon/
+[OCR program]: https://github.com/Rafe/Simple-OCR
+[Rails Source analysis and security report]: https://github.com/Rafe/rails_security
+[masxaro]: http://www.getmasxaro.com
+[mail_parser]: http://github.com/Rafe/mail_parser
+[indexbuilder]: https://github.com/Rafe/IndexEngine

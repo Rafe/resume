@@ -1,9 +1,12 @@
+#Your project url
 url: 'http://github.com/Rafe/resume'
 
 name: 'Jimmy Chao'
 
 file: 'resume.md'
 
+#Tracking key for google analytics
 gkey: 'UA-9904130-5'
 
+#remote position
 github: 'git@github.com:Rafe/resume.git'

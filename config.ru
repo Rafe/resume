@@ -1,4 +1,3 @@
-require 'github/markup'
 require 'sinatra'
 
 get '/' do

@@ -2,17 +2,21 @@
   %head
     %title 
       = title
-    %link(rel="stylesheet" href="style.css" media="all" type="text/css")
+    %link(rel="stylesheet" href="screen.css" media="screen" type="text/css")
+    %link(rel="stylesheet" href="print.css" media="print" type="text/css")
   %body
     = resume
 
-    %ul
-      %li
+
+    %div.links
+      %p
         %a(href="resume.pdf") Download as pdf
-      %li
+      %p
         %a(href="resume.txt") Download as txt
-    %a(href="#{ url }")
+
+    %a.github-link(href="#{ url }")
       %img(style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub")
+
     :javascript
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', "#{ gkey}"]);
@@ -23,4 +27,3 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
