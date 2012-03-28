@@ -1,5 +1,5 @@
-# JIMMY TE-CHUN CHAO
-[github.com/Rafe](http://github.com/Rafe)  -- [daizenga@gmail.com](mailto:daizenga@gmail.com) -- Tel: 646-409-1070
+# JIMMY TE-CHUN CHAO 
+[github.com/Rafe](http://github.com/Rafe) -- [daizenga@gmail.com](mailto:daizenga@gmail.com) --  Tel: 646-409-1070
 
 ## Objective
 * Obtain the position as Web Developer, build great products with innovative technologies and contribute to open source projects. Sharing knowledge and learning from great team running agile practice.
@@ -7,9 +7,7 @@
 ## Education
 
 ### Master of Computer Science
-
 #### August 2010 - January 2012
-
 ### Polytechnic Institute of New York University
 
 * Built [IndexBuilder], a custom search engine and [parser], with Python in Web Search Engine Course.
@@ -20,9 +18,7 @@
 > Core courses taken: Computer Graphic, Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.
 
 ### Bachelor of Information System
-
 #### September 2003 - June 2007
-
 ### Cheng-Chi University
 
 * Attended IBM SOA development competition, Leading a team of 5 to build a collaborative investment platform to provide projections of risk and portfolio strategies. Advance to final 8 out of 52 teams.
@@ -30,9 +26,7 @@
 ## Experience
 
 ### [Masxaro]
-
 #### June 2011 - August 2011
-
 ### _Software Engineer_
 
 * Worked in an intense start-up environment with Agile development process.
@@ -41,9 +35,7 @@
 * Published email parsing module as rubygem [`mail_parser`][mail_parser].
 
 ### Hung-Yong Software. Taiwan
-
 #### Febuary 2010 - August 2010 
-
 ### _Technical Advisor_
 
 * Built Online Survey system for Taiwan Mobile, using ASP.NET MVC and Entity Framework.
@@ -56,9 +48,7 @@
 * Worked on Job Search engine and portal website with ASP.NET and MSSQL, hosting 200 jobs per month.
 
 ### 261 Squadron, Taiwan Navy
-
 #### August 2007 - October 2008
-
 ### _Information Officer_
 
 * Operated servers and network infrustructure in 261 Squadron.
@@ -72,7 +62,7 @@
   
 ### Software Development
 > Experienced with modern software development tools including Git, Vim, Eclipse, Visual Studio.  
-> Using modern development paradigm in development like Agile, Scrum, Test Driven Development, Refactor and Design Patterns.
+  Using modern development paradigm in development like Agile, Scrum, Test Driven Development, Refactor and Design Patterns.
 
 [parser]: https://github.com/Rafe/Crow 
 [Footpon]: http://neethack.com/Footpon/

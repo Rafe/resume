@@ -23,13 +23,17 @@ task :generate do
   title = config['name'] + "'s resume"
   gkey = config['gkey']
   url = config['url']
+  description = config['meta']['description']
+  keywords = config['meta']['keywords']
 
   resume = GitHub::Markup.render(file,File.read(file))
   template = Tilt.new("#{root}/index.haml")
   page = template.render({}, { title: title, 
                                resume: resume,
                                gkey: gkey ,
-                               url: url 
+                               url: url ,
+                               description: description, 
+                               keywords: keywords
                         })
 
   File.open("public/index.html", "w") { |f| f.write(page) }
@@ -47,7 +51,15 @@ task :generate do
   pdf.stylesheets << "public/print.css" 
   pdf.to_file('public/resume.pdf')
 
-  system "cp #{root}/resume.md #{root}/public/resume.txt"
+  # Strip out markdown format
+  File.open("#{root}/resume.md","r") do |f|
+    resume = f.read
+    resume.gsub!("#","")
+    resume.gsub!("-- ","\n")
+    File.open("#{root}/public/resume.txt","w") do |text|
+      text.write(resume)
+    end
+  end
 
   puts "generate resume files complete"
 end

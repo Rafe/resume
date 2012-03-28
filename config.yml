@@ -10,3 +10,7 @@ gkey: 'UA-9904130-5'
 
 #remote position
 github: 'git@github.com:Rafe/resume.git'
+
+meta:
+  description: "Jimmy Chao's resume, web developer who build great product with innovative technology and agile practice."
+  keywords: "Java, Ruby, Ruby on Rails, Python, Javascript, Node.js, Redis, Mongodb, Backbone.js"
