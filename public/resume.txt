@@ -29,29 +29,29 @@
 
  [Masxaro]
  June 2011 - August 2011
- _Software Engineer_
+ Software Engineer
 
 * Worked in an intense start-up environment with Agile development process.
 * Built RESTful api and backend with Ruby on Rails and Postgresql. Deploy service on Heroku and Amazon EC2.
 * Developed Front-end with Backbone.js and bootstrap.
-* Published email parsing module as rubygem [`mail_parser`][mail_parser].
+* Published email parsing module as rubygem [`mailparser`][mailparser].
 
  Hung-Yong Software. Taiwan
  Febuary 2010 - August 2010 
- _Technical Advisor_
+ Technical Advisor
 
 * Built Online Survey system for Taiwan Mobile, using ASP.NET MVC and Entity Framework.
 * Set up Continuous Integration Server, automate deployment and test processes for team, shorten the development time and significant reduce integration problems.
 
  Career Inc. Taiwan
  April 2009 - December 2009
- _Software Engineer_
+ Software Engineer
 
 * Worked on Job Search engine and portal website with ASP.NET and MSSQL, hosting 200 jobs per month.
 
  261 Squadron, Taiwan Navy
  August 2007 - October 2008
- _Information Officer_
+ Information Officer
 
 * Operated servers and network infrustructure in 261 Squadron.
 
@@ -71,5 +71,5 @@
 [Optical Charactor Reconition program]: https://github.com/Rafe/Simple-OCR
 [Rails Source analysis and security report]: https://github.com/Rafe/rails_security
 [masxaro]: http://www.getmasxaro.com
-[mail_parser]: http://github.com/Rafe/mail_parser
+[mailparser]: http://github.com/Rafe/mailparser
 [indexbuilder]: https://github.com/Rafe/IndexEngine

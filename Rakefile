@@ -56,9 +56,8 @@ task :generate do
     resume = f.read
     resume.gsub!("#","")
     resume.gsub!("-- ","\n")
-    File.open("#{root}/public/resume.txt","w") do |text|
-      text.write(resume)
-    end
+    resume.gsub!(/_(.*)_/,'\1')
+    File.open("#{root}/public/resume.txt","w") { |text| text.write(resume) }
   end
 
   puts "generate resume files complete"
@@ -82,7 +81,7 @@ task :github => :generate do
     #https://github.com/schacon/ruby-git/issues/32
     git.lib.send(:command, 'pull origin gh-pages')
   rescue
-    puts "pull fail"
+    puts "--> GitHub pull fails or don't required pull "
   end
 
   git.remove("*",:recursive => true)
