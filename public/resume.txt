@@ -2,19 +2,7 @@
 [github.com/Rafe](http://github.com/Rafe)  -- [daizenga@gmail.com](mailto:daizenga@gmail.com) -- Tel: 646-409-1070
 
 ## Objective
-
-Developing good products that make people's life easier.
-
-## Skills
-
-### Languages
-> Fluent in: Java, Ruby, Javascript, Python, C#, C, CSS, SQL.     
-  Experienced with: C++, Obj-C, PHP, VB, Scheme.  
-  Frameworks & Api: Rails, Sinatra, jQuery, Backbone.js, Redis, Mongodb, Node.js.  
-  
-### Software Development
-> I have experienced with modern software development tools including Git, Vim, Eclipse, Visual Studio.  
-> Also using modern development paradigm in development like Agile, Scrum, Test Driven Development, Refactor and Design Patterns.
+* Obtain the position as Web Developer, build great products with innovative technologies and contribute to open source projects. Sharing knowledge and learning from great team running agile practice.
 
 ## Education
 
@@ -24,10 +12,10 @@ Developing good products that make people's life easier.
 
 ### Polytechnic Institute of New York University
 
-* Built [IndexBuilder], a custom Search Engine and [parser], with Python in Web Search Engine Course.
+* Built [IndexBuilder], a custom search engine and [parser], with Python in Web Search Engine Course.
 * Created [Footpon], an Android application that combine pedometer and coupons, in Mobile Application Development course.
-* Built [OCR program] in Computer Vision Course.
-* Wrote [Rails Source analysis and security report] in Penetration Testing Course.  
+* Built [optical charactor reconition program] in Computer Vision Course.
+* Wrote [Rails source analysis and security report] in Penetration Testing Course.  
 
 > Core courses taken: Computer Graphic, Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.
 
@@ -63,7 +51,7 @@ Developing good products that make people's life easier.
 
 ### Career Inc. Taiwan
 #### April 2009 - December 2009
-### Software Engineer
+### _Software Engineer_
 
 * Worked on Job Search engine and portal website with ASP.NET and MSSQL, hosting 200 jobs per month.
 
@@ -75,9 +63,20 @@ Developing good products that make people's life easier.
 
 * Operated servers and network infrustructure in 261 Squadron.
 
+## Skills
+
+### Languages
+> Fluent in: Java, Ruby, Javascript, Python, C#, C, CSS, SQL.     
+  Experienced with: C++, Obj-C, PHP, VB, Scheme.  
+  Frameworks & Api: Rails, Sinatra, ASP.NET, ASP.NET MVC, Backbone.js, Redis, Mongodb, Node.js.  
+  
+### Software Development
+> Experienced with modern software development tools including Git, Vim, Eclipse, Visual Studio.  
+> Using modern development paradigm in development like Agile, Scrum, Test Driven Development, Refactor and Design Patterns.
+
 [parser]: https://github.com/Rafe/Crow 
 [Footpon]: http://neethack.com/Footpon/
-[OCR program]: https://github.com/Rafe/Simple-OCR
+[Optical Charactor Reconition program]: https://github.com/Rafe/Simple-OCR
 [Rails Source analysis and security report]: https://github.com/Rafe/rails_security
 [masxaro]: http://www.getmasxaro.com
 [mail_parser]: http://github.com/Rafe/mail_parser

@@ -3,7 +3,7 @@
 *{margin:0;padding:0;}
 
 body {
-	font:13.34px helvetica,arial,freesans,clean,sans-serif;
+	font:13.34px neue helvetica,helvetica,arial,freesans,clean,sans-serif;
 	color:black;
 	line-height:1.2em;
 	background-color: white;
@@ -26,7 +26,9 @@ h1,h2,h3,h4,h5,h6{border:0;padding:0; margin:0}
 h1{font-size:200%;border-top:1px solid #aaa;}
 h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
 h2{font-size:150%;border-bottom:1px solid #e0e0e0;}
-h3{}
+h3 em{ 
+  font-weight:normal;
+}
 h2,h3{ padding-top:.5em; padding-bottom:.2em; }
 h4{
   float:right;
