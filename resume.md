@@ -34,7 +34,7 @@
 * Worked in an intense start-up environment with Agile development process.
 * Built RESTful api and backend with Ruby on Rails and Postgresql. Deployed service on Heroku and Amazon EC2.
 * Developed Front-end with Backbone.js and bootstrap.
-* Published email parsing module as rubygem [mail_parser][mail_parser].
+* Published email parsing module as rubygem [mail_parser].
 
 ### Hung-Yong Software. Taiwan
 #### Febuary 2010 - August 2010 

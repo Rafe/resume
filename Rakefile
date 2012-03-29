@@ -52,12 +52,13 @@ task :generate do
   pdf.to_file('public/resume.pdf')
 
   # Strip out markdown format
-  File.open("#{root}/resume.md","r") do |f|
+  File.open("#{root}/resume.md", "r") do |f|
     resume = f.read
-    resume.gsub!("#","")
-    resume.gsub!("-- ","\n")
-    resume.gsub!(/_(.*)_/,'\1')
-    File.open("#{root}/public/resume.txt","w") { |text| text.write(resume) }
+    text = resume.gsub("#", "" )
+                 .gsub("-- ", "\n" )
+                 .gsub(/_(.*)_/, '\1' )
+                 .gsub(/\[(.*)\]\(.*\)/, '[\1]' )
+    File.open("#{root}/public/resume.txt", "w" ) { |file| file.write(text) }
   end
 
   puts "generate resume files complete"

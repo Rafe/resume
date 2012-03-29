@@ -1,7 +1,7 @@
  Jimmy Te-Chun Chao
 115E 34th Street, Apt 17J, New York City, NY 10016  
-[github.com/Rafe](http://github.com/Rafe) 
-[daizenga@gmail.com](mailto:daizenga@gmail.com) 
+[github.com/Rafe] 
+[daizenga@gmail.com] 
  Tel: 646-409-1070 
 
  Objective
@@ -36,7 +36,7 @@
 * Worked in an intense start-up environment with Agile development process.
 * Built RESTful api and backend with Ruby on Rails and Postgresql. Deployed service on Heroku and Amazon EC2.
 * Developed Front-end with Backbone.js and bootstrap.
-* Published email parsing module as rubygem [mailparser][mailparser].
+* Published email parsing module as rubygem [mail_parser].
 
  Hung-Yong Software. Taiwan
  Febuary 2010 - August 2010 
