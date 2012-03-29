@@ -19,7 +19,7 @@ pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans 
 
 img{border:0;max-width:100%;}
 abbr{border-bottom:none;}
-a{color:#4183c4;text-decoration:none;}
+a{color:#000;text-decoration:none;}
 a:hover{text-decoration:underline;}
 a code,a:link code,a:visited code{color:#4183c4;}
 h1,h2,h3,h4,h5,h6{border:0;padding:0; margin:0}
