@@ -4,7 +4,7 @@
 
 ##Objective
 
-* Obtain a position as web developer where I can maximize my development skills on both front-end javascripts and backend development with large scale.
+* Obtain a position as web developer where I can maximize my development skills on both front-end javascripts and Ruby on Rails development with large scale.
 
 ##Education
 
