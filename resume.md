@@ -1,35 +1,28 @@
-#Jimmy Te-Chun Chao
+#[Jimmy Te-Chun Chao](http://neethack.com)
 115E 34th Street, Apt 17J, New York City, NY 10016  
 [github.com/Rafe](http://github.com/Rafe) -- [daizenga@gmail.com](mailto:daizenga@gmail.com) --  Tel: 646-409-1070 
 
-##Objective
-
-* Obtain a position as web developer where I can maximize my development skills on both front-end javascripts and Ruby on Rails development with large scale.
-
-##Education
-
-###Polytechnic Institute of New York University
-####August 2010 - January 2012
-###Master of Computer Science
-
-* Built [IndexBuilder], a custom search engine and [parser], with Python in Web Search Engine Course.
-* Created [Footpon], an Android application that combines pedometer and coupon, in Mobile Application Development course.
-* Wrote [Rails source analysis and security report] in Penetration Testing Course.  
-* Attended HackNY Hackathon 2011 Fall, created [ChatSonar], a chatroom application combine Google Map and foursquare API. Using node.js, socket.io and Mongodb.  
-
-> Core courses taken: Computer Graphic, [Computer Vision], Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.   
-
-###Cheng-Chi University
-####September 2003 - June 2007
-###Bachelor of Information System
-
-* Attended IBM SOA development competition, Leading a team of 5 to build a collaborative investment platform to provide projections of risk and portfolio strategies. Advanced to final 8 out of 52 teams.
-
 ##Experience
+
+###[Cookhub]
+#### December 2012 - Now
+### Founder, Software Engineer
+
+* Worked on node.js, express, mongodb and redis.
+* Developed open source project [Papercut] for image resize.
+
+###[Spling]
+#### April 2012 - November 2012
+### Software Engineer
+
+* Worked on Backbone.js single page application with Django backend.
+* Improving SplingEngine, the spling url crawler that transfer url to image. Running on RabbitMq
+* Work with Instagram, Flicker, Embedly and Bing api.
+* Create Spling widget, Embeded splingboard on 3rd party website.
 
 ###[Masxaro]
 ####June 2011 - August 2011
-###_Software Engineer_
+###_Software Engineer_Intern
 
 * Worked in an intense start-up environment with Agile development process.
 * Built RESTful api and backend with Ruby on Rails and Postgresql. Deployed service on Heroku and Amazon EC2.
@@ -56,6 +49,25 @@
 
 * Operated servers and network infrustructure in 261 Squadron.
 
+##Education
+
+###Polytechnic Institute of New York University
+####August 2010 - January 2012
+###Master of Computer Science
+
+* Built [IndexBuilder], a custom search engine and [parser], with Python in Web Search Engine Course.
+* Created [Footpon], an Android application that combines pedometer and coupon, in Mobile Application Development course.
+* Wrote [Rails source analysis and security report] in Penetration Testing Course.  
+* Attended HackNY Hackathon 2011 Fall, created [ChatSonar], a chatroom application combine Google Map and foursquare API. Using node.js, socket.io and Mongodb.  
+
+> Core courses taken: Computer Graphic, [Computer Vision], Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.   
+
+###Cheng-Chi University
+####September 2003 - June 2007
+###Bachelor of Information System
+
+* Attended IBM SOA development competition, Leading a team of 5 to build a collaborative investment platform to provide projections of risk and portfolio strategies. Advanced to final 8 out of 52 teams.
+
 ##Skills
 
 ###Programming Languages
@@ -76,3 +88,6 @@
 [mail_parser]: http://github.com/Rafe/mail_parser
 [indexbuilder]: https://github.com/Rafe/IndexEngine
 [Chatsonar]: https://github.com/Rafe/sonar
+[Spling]: http://spling.com
+[Cookhub]: http://cookhub.me
+[Papercut]: http://github.com/Rafe/papercut

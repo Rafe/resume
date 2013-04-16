@@ -1,12 +1,8 @@
-Jimmy Te-Chun Chao
+[Jimmy Te-Chun Chao]
 115E 34th Street, Apt 17J, New York City, NY 10016  
 [github.com/Rafe] 
 [daizenga@gmail.com] 
  Tel: 646-409-1070 
-
-Objective
-
-* Obtain a position as web developer where I can maximize my development skills on both front-end javascripts and Ruby on Rails development with large scale.
 
 Education
 
@@ -29,9 +25,25 @@ Bachelor of Information System
 
 Experience
 
+[Cookhub]
+ December 2012 - Now
+ Founder, Software Engineer
+
+* Worked on node.js, express, mongodb and redis.
+* Developed open source project [Papercut] for image resize.
+
+[Spling]
+ April 2012 - November 2012
+ Software Engineer
+
+* Worked on Backbone.js single page application with Django backend.
+* Improving SplingEngine, the spling url crawler that transfer url to image. Running on RabbitMq
+* Work with Instagram, Flicker, Embedly and Bing api.
+* Create Spling widget, Embeded splingboard on 3rd party website.
+
 [Masxaro]
 June 2011 - August 2011
-Software Engineer
+Software EngineerIntern
 
 * Worked in an intense start-up environment with Agile development process.
 * Built RESTful api and backend with Ruby on Rails and Postgresql. Deployed service on Heroku and Amazon EC2.
@@ -78,3 +90,6 @@ Software Development
 [mailparser]: http://github.com/Rafe/mailparser
 [indexbuilder]: https://github.com/Rafe/IndexEngine
 [Chatsonar]: https://github.com/Rafe/sonar
+[Spling]: http://spling.com
+[Cookhub]: http://cookhub.me
+[Papercut]: http://github.com/Rafe/papercut
