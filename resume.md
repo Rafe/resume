@@ -11,7 +11,7 @@
 * Working on one of the largest enterprise ruby on rails application casebook.
 * Refactoring the chef cookbooks, integrate vagrant, chef kitchen and serverspecs to devops development.
 
-###[Freelancer]
+###Freelancer
 #### December 2012 - February 2013
 
 * Worked on node.js, express, mongodb and redis.
