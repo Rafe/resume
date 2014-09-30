@@ -4,37 +4,27 @@
 [daizenga@gmail.com] 
  Tel: 646-409-1070 
 
-Education
-
-Polytechnic Institute of New York University
-August 2010 - January 2012
-Master of Computer Science
-
-* Built [IndexBuilder], a custom search engine and [parser], with Python in Web Search Engine Course.
-* Created [Footpon], an Android application that combines pedometer and coupon, in Mobile Application Development course.
-* Wrote [Rails source analysis and security report] in Penetration Testing Course.  
-* Attended HackNY Hackathon 2011 Fall, created [ChatSonar], a chatroom application combine Google Map and foursquare API. Using node.js, socket.io and Mongodb.  
-
-> Core courses taken: Computer Graphic, [Computer Vision], Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.   
-
-Cheng-Chi University
-September 2003 - June 2007
-Bachelor of Information System
-
-* Attended IBM SOA development competition, Leading a team of 5 to build a collaborative investment platform to provide projections of risk and portfolio strategies. Advanced to final 8 out of 52 teams.
-
 Experience
 
-[Cookhub]
- December 2012 - Now
- Founder, Software Engineer
+[Casecommons]
+ March 2013 - Now
+Software Engineer
+
+* Working on one of the largest enterprise ruby on rails application casebook.
+* Refactoring the chef cookbooks, integrate vagrant, chef kitchen and serverspecs to devops development.
+
+[Freelancer]
+ December 2012 - February 2013
 
 * Worked on node.js, express, mongodb and redis.
+* Developed the backend of [Taipei Cultural Center New York] website
+* Developed [Cookhub]
 * Developed open source project [Papercut] for image resize.
+* Developed open source project [Code Warrior]
 
 [Spling]
  April 2012 - November 2012
- Software Engineer
+Software Engineer
 
 * Worked on Backbone.js single page application with Django backend.
 * Improving SplingEngine, the spling url crawler that transfer url to image. Running on RabbitMq
@@ -70,6 +60,25 @@ Information Officer
 
 * Operated servers and network infrustructure in 261 Squadron.
 
+Education
+
+Polytechnic Institute of New York University
+August 2010 - January 2012
+Master of Computer Science
+
+* Built [IndexBuilder], a custom search engine and [parser], with Python in Web Search Engine Course.
+* Created [Footpon], an Android application that combines pedometer and coupon, in Mobile Application Development course.
+* Wrote [Rails source analysis and security report] in Penetration Testing Course.  
+* Attended HackNY Hackathon 2011 Fall, created [ChatSonar], a chatroom application combine Google Map and foursquare API. Using node.js, socket.io and Mongodb.  
+
+> Core courses taken: Computer Graphic, [Computer Vision], Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.   
+
+Cheng-Chi University
+September 2003 - June 2007
+Bachelor of Information System
+
+* Attended IBM SOA development competition, Leading a team of 5 to build a collaborative investment platform to provide projections of risk and portfolio strategies. Advanced to final 8 out of 52 teams.
+
 Skills
 
 Programming Languages
@@ -86,10 +95,12 @@ Software Development
 [Footpon]: http://neethack.com/Footpon/
 [Computer Vision]: https://github.com/Rafe/Simple-OCR
 [Rails Source analysis and security report]: https://github.com/Rafe/rails_security
-[masxaro]: http://www.getmasxaro.com
+[masxaro]: http://masxaro.herokuapp.com/
 [mailparser]: http://github.com/Rafe/mailparser
 [indexbuilder]: https://github.com/Rafe/IndexEngine
 [Chatsonar]: https://github.com/Rafe/sonar
 [Spling]: http://spling.com
-[Cookhub]: http://cookhub.me
+[Cookhub]: http://cookhub.herokuapp.com
 [Papercut]: http://github.com/Rafe/papercut
+[Code Warrior]: http://code-warrior.herokuapp.com
+[Casecommons]: http://casecommons.org
