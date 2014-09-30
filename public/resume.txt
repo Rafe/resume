@@ -13,7 +13,7 @@ Software Engineer
 * Working on one of the largest enterprise ruby on rails application casebook.
 * Refactoring the chef cookbooks, integrate vagrant, chef kitchen and serverspecs to devops development.
 
-[Freelancer]
+Freelancer
  December 2012 - February 2013
 
 * Worked on node.js, express, mongodb and redis.
@@ -104,3 +104,4 @@ Software Development
 [Papercut]: http://github.com/Rafe/papercut
 [Code Warrior]: http://code-warrior.herokuapp.com
 [Casecommons]: http://casecommons.org
+[Taipei Cultural Center New York]: http://www.tpecc.org/
