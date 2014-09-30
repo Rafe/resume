@@ -4,16 +4,25 @@
 
 ##Experience
 
-###[Cookhub]
-#### December 2012 - Now
-### Founder, Software Engineer
+###[Casecommons]
+#### March 2013 - Now
+###_Software Engineer_
+
+* Working on one of the largest enterprise ruby on rails application casebook.
+* Refactoring the chef cookbooks, integrate vagrant, chef kitchen and serverspecs to devops development.
+
+###[Freelancer]
+#### December 2012 - February 2013
 
 * Worked on node.js, express, mongodb and redis.
+* Developed the backend of [Taipei Cultural Center New York] website
+* Developed [Cookhub]
 * Developed open source project [Papercut] for image resize.
+* Developed open source project [Code Warrior]
 
 ###[Spling]
 #### April 2012 - November 2012
-### Software Engineer
+###_Software Engineer_
 
 * Worked on Backbone.js single page application with Django backend.
 * Improving SplingEngine, the spling url crawler that transfer url to image. Running on RabbitMq
@@ -84,10 +93,12 @@
 [Footpon]: http://neethack.com/Footpon/
 [Computer Vision]: https://github.com/Rafe/Simple-OCR
 [Rails Source analysis and security report]: https://github.com/Rafe/rails_security
-[masxaro]: http://www.getmasxaro.com
+[masxaro]: http://masxaro.herokuapp.com/
 [mail_parser]: http://github.com/Rafe/mail_parser
 [indexbuilder]: https://github.com/Rafe/IndexEngine
 [Chatsonar]: https://github.com/Rafe/sonar
 [Spling]: http://spling.com
-[Cookhub]: http://cookhub.me
+[Cookhub]: http://cookhub.herokuapp.com
 [Papercut]: http://github.com/Rafe/papercut
+[Code Warrior]: http://code-warrior.herokuapp.com
+[Casecommons]: http://casecommons.org
