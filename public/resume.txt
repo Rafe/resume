@@ -9,19 +9,19 @@ Experience
  March 2013 - Current
  Software Engineer
 
-* Work as import API team lead for Indiana State hotline system, migrated 600 million records from legacy system.
+* Worked as import API team lead for Indiana State hotline system, migrated 600 million records from legacy system.
 * Develop [Casebook], Indiana State Child Welfare system with Rails, postgres Redis, Elasticsearch, Backbone.js and React.js
 * Work under 100% pair programming environment with test driven development and continous integration.
-* Work in DevOps Team, improve our server infrastructure by integrating vagrant, chef kitchen and serverspecs.
+* Worked in DevOps Team, improve our server infrastructure by integrating vagrant, chef kitchen and serverspecs.
 * Hosting developer learning lunch to build developer culture in Case Commons.
 
  Freelancer
  December 2012 - February 2013
 
-* Work on node.js, express, mongodb and redis.
-* Develop the backend of [Taipei Cultural Center New York] website
-* Develop open source project [Papercut] for image resize.
-* Develop open source project [Code Warrior]
+* Worked on node.js, express, mongodb and redis.
+* Developed the backend of [Taipei Cultural Center New York] website
+* Developed open source project [Papercut] for image resize.
+* Developed open source project [Code Warrior]
 
  [Spling]
  April 2012 - November 2012
@@ -29,15 +29,14 @@ Experience
 
 * Worked on Backbone.js single page application with Django backend.
 * Improving SplingEngine, the spling url crawler that transfer url to image. Running on RabbitMq
-* Work with Instagram, Flicker, Embedly and Bing api.
-* Create Spling widget, Embeded splingboard on 3rd party website.
+* Worked with Instagram, Flicker, Embedly and Bing api.
+* Created Spling widget, Embeded splingboard on 3rd party website.
 
  Masxaro
  June 2011 - August 2011
  Software Engineer Intern
 
-* Worked in an intense start-up environment with Agile development process.
-* Built RESTful api and backend with Ruby on Rails and Postgresql. Deployed service on Heroku and Amazon EC2.
+* Built RESTful api and backend with Ruby on Rails and Postgresql. Deploy service to Heroku and Amazon EC2.
 * Developed Front-end with Backbone.js and bootstrap.
 * Published email parsing module as rubygem [mail_parser].
 
@@ -47,7 +46,7 @@ Experience
 
 * Built Online Survey system for Taiwan Mobile, using ASP.NET MVC and Entity Framework.
 * Developed workflow web service using VB.NET and automated testing with SOAPUI.
-* Set up Continuous Integration Server, automated deployment and testing processes for team, shortened the development time and significantly reduced integration problems.
+* Setup Continuous Integration Server, automated deployment and testing processes for team, shortened the development time and significantly reduced integration problems.
 
 Career Inc. Taiwan
  April 2009 - December 2009
