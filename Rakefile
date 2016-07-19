@@ -42,8 +42,8 @@ task :generate do
     config.default_options = {
       :page_size     => 'A4',
       :print_media_type => true,
-      :margin_top => '0.2',
-      :margin_bottom => '0.2',
+      :margin_top => '10',
+      :margin_bottom => '10',
     }
   end
 
