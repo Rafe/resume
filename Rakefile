@@ -1,11 +1,8 @@
-root = File.expand_path(File.dirname(__FILE__))
+$LOAD_PATH.unshift File.expand_path(File.join(File.dirname(__FILE__), './lib'))
+
+require 'resume'
 
 task :default => :generate
-
-def load_config
-  autoload :YAML, 'yaml'
-  YAML.load_file "config.yml"
-end
 
 desc "start the server"
 task :up => :generate do
@@ -14,52 +11,17 @@ end
 
 desc "generate resume.pdf and index.html"
 task :generate do
-  require 'tilt'
-  require 'github/markup'
-  require 'pdfkit'
 
-  config = load_config
-  file = config['file']
-  title = config['name'] + "'s resume"
-  gkey = config['gkey']
-  url = config['url']
-  description = config['meta']['description']
-  keywords = config['meta']['keywords']
+  resume = Resume.new
 
-  resume = GitHub::Markup.render(file,File.read(file))
-  template = Tilt.new("#{root}/index.haml")
-  page = template.render({}, { title: title, 
-                               resume: resume,
-                               gkey: gkey ,
-                               url: url ,
-                               description: description, 
-                               keywords: keywords
-                        })
-
+  page = resume.render_html
   File.open("public/index.html", "w") { |f| f.write(page) }
 
-  PDFKit.configure do |config|
-    config.default_options = {
-      :page_size     => 'A4',
-      :print_media_type => true,
-      :margin_top => '10',
-      :margin_bottom => '10',
-    }
-  end
-
-  pdf = PDFKit.new(resume)
-  pdf.stylesheets << "public/print.css" 
+  pdf = resume.render_pdf
   pdf.to_file('public/resume.pdf')
 
-  # Strip out markdown format
-  File.open("#{root}/resume.md", "r") do |f|
-    resume = f.read
-    text = resume.gsub("#", "" )
-                 .gsub("-- ", "\n" )
-                 .gsub(/_(.*)_/, '\1' )
-                 .gsub(/\[(.*)\]\(.*\)/, '[\1]' )
-    File.open("#{root}/public/resume.txt", "w" ) { |file| file.write(text) }
-  end
+  text = resume.render_text
+  File.open("public/resume.txt", "w" ) { |file| file.write(text) }
 
   puts "generate resume files complete"
 end
@@ -72,6 +34,7 @@ task :github => :generate do
 
   remote = load_config["github"]
 
+  root = File.dirname(__FILE__)
   tmp = "/tmp/checkout-#{Time.now.to_i}"
   git = Git.clone(remote, tmp, :log => Logger.new(STDOUT)) 
 
