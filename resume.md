@@ -7,7 +7,7 @@
 #### March 2013 - Current
 ##### _Software Engineer_
 
-* Worked as import API team lead for Indiana State hotline system, migrated 600 million records from legacy system.
+* Worked as import API team lead for Indiana State hotline system, migrated 6 million records from legacy system.
 * Develop [Casebook], Indiana State Child Welfare system with Rails, postgres Redis, Elasticsearch, Backbone.js and React.js
 * Work under 100% pair programming environment with test driven development and continous integration.
 * Worked in DevOps Team, improve our server infrastructure by integrating vagrant, chef kitchen and serverspecs.

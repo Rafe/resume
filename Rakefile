@@ -4,6 +4,11 @@ require 'resume'
 
 task :default => :generate
 
+def load_config
+  autoload :YAML, 'yaml'
+  YAML.load_file "config.yml"
+end
+
 desc "start the server"
 task :up => :generate do
   exec "rackup"
