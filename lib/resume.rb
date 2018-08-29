@@ -3,15 +3,6 @@ require 'tilt'
 require 'github/markup'
 require 'pdfkit'
 
-PDFKit.configure do |config|
-  config.default_options = {
-    page_size: 'A4',
-    print_media_type: true,
-    margin_top:  '10',
-    margin_bottom: '10',
-  }
-end
-
 class Resume
   def render_html
     Tilt.new("#{root}/index.haml").render({},
@@ -25,7 +16,11 @@ class Resume
   end
 
   def render_pdf
-    pdf = PDFKit.new(markdown)
+    pdf = PDFKit.new(markdown, {
+      page_size: 'A4',
+      print_media_type: true,
+    })
+    pdf.stylesheets << 'docs/print.css'
     pdf
   end
 
