@@ -5,38 +5,37 @@ require 'pdfkit'
 
 PDFKit.configure do |config|
   config.default_options = {
-    :page_size     => 'A4',
-    :print_media_type => true,
-    :margin_top => '10',
-    :margin_bottom => '10',
+    page_size: 'A4',
+    print_media_type: true,
+    margin_top:  '10',
+    margin_bottom: '10',
   }
 end
 
 class Resume
   def render_html
-    Tilt.new("#{root}/index.haml").render({}, {
+    Tilt.new("#{root}/index.haml").render({},
       title: title,
       resume: markdown,
-      gkey: gkey ,
-      url: url ,
+      gkey: gkey,
+      url: url,
       description: description,
       keywords: keywords
-    })
+    )
   end
 
   def render_pdf
     pdf = PDFKit.new(markdown)
-    pdf.stylesheets << "docs/print.css"
     pdf
   end
 
   def render_text
-    File.open("#{root}/resume.md", "r") do |file|
+    File.open("#{root}/resume.md", 'r') do |file|
       # Strip out markdown format
-      file.read.gsub("#", "" )
-        .gsub("-- ", "\n" )
-        .gsub(/_(.*)_/, '\1' )
-        .gsub(/\[(.*)\]\(.*\)/, '[\1]' )
+      file.read.delete('#')
+          .gsub('-- ', '\n')
+          .gsub(/_(.*)_/, '\1')
+          .gsub(/\[(.*)\]\(.*\)/, '[\1]')
     end
   end
 
@@ -51,7 +50,7 @@ class Resume
   end
 
   def config
-    @config ||=YAML.load_file File.join(root, 'config.yml')
+    @config ||= YAML.load_file File.join(root, 'config.yml')
   end
 
   def file_path
