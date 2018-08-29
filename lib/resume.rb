@@ -26,7 +26,7 @@ class Resume
 
   def render_pdf
     pdf = PDFKit.new(markdown)
-    pdf.stylesheets << "public/print.css"
+    pdf.stylesheets << "docs/print.css"
     pdf
   end
 
