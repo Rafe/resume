@@ -13,11 +13,11 @@
 ##### _Senior Software Engineer_
 
 * Develop [Casebook], Indiana State Child Welfare system with Rails, Postgres, Redis, Elasticsearch, Backbone.js and React.js
-* Built Casebook Mobile App, creates Mobile application for field workers with React Native.
-* Hosting developer learning lunch to build developer culture in Casecommons.
+* Lead and build Casebook Mobile App, introduce React Native to Casecommons.
+* Propose and host developer learning lunch to build developer culture in Casecommons.
 * Worked as import API team lead for Indiana State hotline system, migrated 6 million records from legacy system.
+* Improve server infrastructure by integrating new tool includes vagrant, chef kitchen and serverspecs with Devops team.
 * Work under pair programming environment with test driven development and continuous integration.
-* Improved our server infrastructure by integrating vagrant, chef kitchen and serverspecs with Devops team.
 
 ### Spling
 #### April 2012 - November 2012
