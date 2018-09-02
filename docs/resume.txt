@@ -69,6 +69,7 @@ Education
 * [Beantocurrency]
 * [Your strategy was eaten by Culture]
 * [Let's build react js]
+* [Functionaljavascript_talk]
 
 Skills
 

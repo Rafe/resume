@@ -69,6 +69,7 @@
 * [Beantocurrency](https://www.dropbox.com/s/y1dbxo0lt20oqhk/beantocurrency.pdf)
 * [Your strategy was eaten by Culture](https://www.dropbox.com/s/96d6q27h43kpk3j/Culture.pdf)
 * [Let's build react js](http://neethack.com/2015/10/lets-build-react-dot-js/)
+* [Functional_javascript_talk](https://github.com/Rafe/functional_javascript_talk)
 
 ##Skills
 
