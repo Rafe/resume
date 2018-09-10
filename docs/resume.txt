@@ -56,22 +56,16 @@ Education
 
 > Core courses taken: Computer Graphic, [Computer Vision], Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.   
 
- Cheng-Chi University
- September 2003 - June 2007
- Bachelor of Information System
-
-* Attended IBM SOA development competition, Leading a team of 5 to build a collaborative investment platform to provide projections of risk and portfolio strategies. Advanced to final 8 out of 52 teams.
-
  Talks
 
 * [Ruby concurrent programming]
 * [Bash like a Marshall]
 * [Beantocurrency]
-* [Your strategy was eaten by Culture]
 * [Let's build react js]
-* [Functionaljavascript_talk]
+* [Functional javascript talk]
+* [Your strategy was eaten by culture]
 
-Skills
+ Skills
 
 > Essential knowledge about Software development tools including Git, Vim, Xcode, Eclipse, Visual Studio code.  
 > Experienced with Agile, Scrum, Pair Programming, Test Driven Development, Refactor and Design Patterns.  

@@ -56,22 +56,16 @@
 
 > Core courses taken: Computer Graphic, [Computer Vision], Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.   
 
-### Cheng-Chi University
-#### September 2003 - June 2007
-##### _Bachelor of Information System_
-
-* Attended IBM SOA development competition, Leading a team of 5 to build a collaborative investment platform to provide projections of risk and portfolio strategies. Advanced to final 8 out of 52 teams.
-
 ## Talks
 
 * [Ruby concurrent programming](https://www.youtube.com/watch?v=GeYh3nXCFVw&t=307s)
 * [Bash like a Marshall](https://www.youtube.com/watch?v=7Lu1I4iY4CM)
 * [Beantocurrency](https://www.dropbox.com/s/y1dbxo0lt20oqhk/beantocurrency.pdf)
-* [Your strategy was eaten by Culture](https://www.dropbox.com/s/96d6q27h43kpk3j/Culture.pdf)
 * [Let's build react js](http://neethack.com/2015/10/lets-build-react-dot-js/)
-* [Functional_javascript_talk](https://github.com/Rafe/functional_javascript_talk)
+* [Functional javascript talk](https://github.com/Rafe/functional_javascript_talk)
+* [Your strategy was eaten by culture](https://www.dropbox.com/s/96d6q27h43kpk3j/Culture.pdf)
 
-##Skills
+## Skills
 
 > Essential knowledge about Software development tools including Git, Vim, Xcode, Eclipse, Visual Studio code.  
 > Experienced with Agile, Scrum, Pair Programming, Test Driven Development, Refactor and Design Patterns.  
