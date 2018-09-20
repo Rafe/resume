@@ -12,7 +12,7 @@
 #### March 2013 - Feb 2018
 ##### _Senior Software Engineer_
 
-* Develop [Casebook], Indiana State Child Welfare system with Rails, Postgres, Redis, Elasticsearch, Backbone.js and React.js
+* Develop [Casebook], Indiana State Child Welfare system with Rails, React.js, Postgres, Redis and Elasticsearch
 * Lead and build Casebook Mobile App, introduce React Native to Casecommons.
 * Propose and host developer learning lunch to build developer culture in Casecommons.
 * Worked as import API team lead for Indiana State hotline system, migrated 6 million records from legacy system.
@@ -23,7 +23,7 @@
 #### April 2012 - November 2012
 ##### _Software Engineer_
 
-* Worked on Backbone.js single page application with Django backend.
+* Worked on Backbone.js single page application with python Django backend.
 * Improved SplingEngine, the spling url crawler that transfer url to image. Running on RabbitMq
 * Worked with Instagram, Flicker, Embedly and Bing api.
 * Created Spling widget, Embeded splingboard on 3rd party website.
@@ -64,12 +64,6 @@
 * [Let's build react js](http://neethack.com/2015/10/lets-build-react-dot-js/)
 * [Functional javascript talk](https://github.com/Rafe/functional_javascript_talk)
 * [Your strategy was eaten by culture](https://www.dropbox.com/s/96d6q27h43kpk3j/Culture.pdf)
-
-## Skills
-
-> Essential knowledge about Software development tools including Git, Vim, Xcode, Eclipse, Visual Studio code.  
-> Experienced with Agile, Scrum, Pair Programming, Test Driven Development, Refactor and Design Patterns.  
-> Work efficiently with Rails, React.js, Elastic Search, Docker and Redis.  
 
 [parser]: https://github.com/Rafe/Crow 
 [Footpon]: http://neethack.com/Footpon/
