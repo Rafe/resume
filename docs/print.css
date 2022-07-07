@@ -3,7 +3,7 @@
 *{margin:0;padding:0;}
 
 body {
-  font:0.45in helvetica,helvetica,arial,freesans,clean,sans-serif;
+  font:15px helvetica,helvetica,arial,freesans,clean,sans-serif;
   color:black;
   line-height:1.3em;
   letter-spacing: normal;
@@ -35,10 +35,10 @@ h2,h3{ padding-top:.5em; padding-bottom:.2em; }
 h4{
   float:right;
   position:relative;
-  top:-70px;
   font-style:italic;
   font-weight:normal;
   color: #555;
+  top: -23px;
 }
 h5{padding-top: .5em; font-size: 100%;}
 

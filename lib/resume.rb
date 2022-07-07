@@ -5,18 +5,18 @@ require 'pdfkit'
 
 class Resume
   def render_html
-    Tilt.new("#{root}/index.haml").render({},
-      title: title,
-      resume: markdown,
-      gkey: gkey,
-      url: url,
-      description: description,
-      keywords: keywords
+    Tilt.new("#{root_path}/index.haml").render({},
+      title: "#{config['name']}'s resume",
+      resume: resume_html,
+      gkey: config['gkey'],
+      url: config['url'],
+      description: config['meta']['description'],
+      keywords: config['meta']['keywords']
     )
   end
 
   def render_pdf
-    pdf = PDFKit.new(markdown, {
+    pdf = PDFKit.new(resume_html, {
       page_size: 'A4',
       print_media_type: true,
     })
@@ -25,62 +25,27 @@ class Resume
   end
 
   def render_text
-    File.open("#{root}/resume.md", 'r') do |file|
-      # Strip out markdown format
-      file.read.delete('#')
-          .gsub('-- ', '\n')
-          .gsub(/_(.*)_/, '\1')
-          .gsub(/\[(.*)\]\(.*\)/, '[\1]')
-    end
-  end
-
-  def markdown
-    @markdown ||= GitHub::Markup.render(file, File.read(file_path))
+    resume_file.delete('#')
+      .gsub('-- ', '\n')
+      .gsub(/_(.*)_/, '\1')
+      .gsub(/\[(.*)\]\(.*\)/, '[\1]')
   end
 
   private
 
-  def root
-    File.expand_path(File.join(File.dirname(__FILE__), '../'))
+  def resume_html
+    @resume_html ||= GitHub::Markup.render(config["file"], resume_file)
+  end
+
+  def resume_file
+    @resume_file ||= File.read(File.join(root_path, config['file']))
   end
 
   def config
-    @config ||= YAML.load_file File.join(root, 'config.yml')
+    @config ||= YAML.load_file(File.join(root_path, 'config.yml'))
   end
 
-  def file_path
-    File.join(root, file)
-  end
-
-  def file
-    config['file']
-  end
-
-  def title
-    "#{config['name']}'s resume'"
-  end
-
-  def gkey
-    config['gkey']
-  end
-
-  def url
-    config['url']
-  end
-
-  def description
-    config['meta']['description']
-  end
-
-  def keywords
-    config['meta']['keywords']
-  end
-
-  def resume
-    Github::Markup.render(file, File.read(file))
-  end
-
-  def template
-    Tilt.new(File.join(root, 'index.haml'))
+  def root_path
+    File.expand_path(File.join(File.dirname(__FILE__), '../'))
   end
 end
