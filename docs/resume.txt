@@ -7,7 +7,7 @@
  November 2018 - Present
  Senior Software Engineer
 
-* Lead the project to implement frontend architecture with Webpacker, and increase the code contribution in Javascript by 30% more.
+* Led the frontend architecture project using Webpacker, boosting Javascript code contributions by 30%
 * Developed the StreetEasy Expert matching program, one of the critical growth factors for StreetEasy.
 * Migrated Mobile notification system from AppBoy/Braze to Iterable, saving the cost for upcoming contract renewal.
 * Implemented Authorization microservice for StreetEasy and Zillow Group, create DSL to simplify complex object relation synchronization.
@@ -17,12 +17,12 @@
  March 2013 - Febuary 2018
  Senior Software Engineer
 
-* Develop [Casebook], Indiana State Child Welfare system with Rails, React.js, Postgres, Redis and Elasticsearch
-* Lead and build Casebook Mobile App, introduce React Native to Casecommons.
-* Propose and host developer learning lunch to build developer culture in Casecommons.
+* Developed the [Casebook] platform for the Indiana State Child Welfare system, utilizing Rails, React.js, PostgreSQL, Redis, and Elasticsearch, enhancing system efficiency and user experience.
+* Led and build Casebook Mobile App, building the MVP for with React Native to improve the user experiment of field workers.
+* Proposed and host developer learning lunch to build developer culture in Casecommons.
 * Worked as import API team lead for Indiana State hotline system, migrated 6 million records from legacy system.
-* Improve server infrastructure by integrating new tool includes vagrant, chef kitchen and serverspecs with Devops team.
-* Work under pair programming environment with test driven development and continuous integration.
+* Improved server infrastructure by integrating new tool includes vagrant, chef kitchen and serverspecs with Devops team.
+* Worked under pair programming environment with test driven development and continuous integration.
 
  Spling
  April 2012 - November 2012
