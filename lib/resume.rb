@@ -16,7 +16,7 @@ class Resume
   end
 
   def render_pdf
-    pdf = PDFKit.new(resume_html, {
+    pdf = PDFKit.new(digest_html, {
       page_size: 'A4',
       print_media_type: true,
     })
@@ -32,6 +32,10 @@ class Resume
   end
 
   private
+
+  def digest_html
+    @digest_html ||= resume_html.split("<h2>Talks</h2>").first
+  end
 
   def resume_html
     @resume_html ||= GitHub::Markup.render(config["file"], resume_file)

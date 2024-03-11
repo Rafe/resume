@@ -3,7 +3,7 @@
 
 ## Experience
 
-### [Zillow Group] - [StreetEasy]
+### [Zillow Group](https://zillowgroup.com) - [StreetEasy](https://streeteasy.com/)
 #### November 2018 - Present
 ##### _Senior Software Engineer_
 
@@ -11,7 +11,7 @@
 * Developed the StreetEasy Expert matching program, one of the critical growth factors for StreetEasy.
 * Migrated Mobile notification system from AppBoy/Braze to Iterable, saving the cost for upcoming contract renewal.
 * Implemented Authorization microservice for StreetEasy and Zillow Group, create DSL to simplify complex object relation synchronization.
-* Worked on Seller and Rental manager performance Dashboard with GraphQL, React and integrate with microservices.
+* Worked on Seller and Rental manager performance Dashboard with GraphQL, React, Next.js and integrate with microservices.
 
 ### [Casecommons/Casebook PBC]
 #### March 2013 - Febuary 2018
@@ -46,7 +46,6 @@
 ##### _Technical Advisor_
 
 * Built Online Survey system for Taiwan Mobile, using ASP.NET MVC and Entity Framework.
-* Developed workflow web service using VB.NET and automated testing with SOAPUI.
 * Setup Continuous Integration Server, automated deployment and testing processes for team, shortened the development time and significantly reduced integration problems.
 
 ## Education
@@ -58,8 +57,6 @@
 * [Rails source analysis and security report] in Penetration Testing Course.
 * Built [IndexBuilder], a custom search engine and [parser], with Python in Web Search Engine Course.
 * Created [Footpon], an Android application that combines pedometer and coupon, in Mobile Application Development course.
-
-> Core courses taken: Computer Graphic, [Computer Vision], Design and Analysis of Algorithm, Modern Cryptography, Computer Architecture, Programming Languages.   
 
 ## Talks
 
@@ -81,5 +78,3 @@
 [Casecommons/Casebook PBC]: http://casebook.net
 [Casebook]: http://casebook.net/casebook/
 [Flow]: https://beansauce.io/flow/
-[Zillow Group]: https://zillowgroup.com
-[StreetEasy]: https://streeteasy.com/
