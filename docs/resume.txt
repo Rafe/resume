@@ -49,7 +49,7 @@
 * Developed workflow web service using VB.NET and automated testing with SOAPUI.
 * Setup Continuous Integration Server, automated deployment and testing processes for team, shortened the development time and significantly reduced integration problems.
 
-Education
+ Education
 
  New York University
  August 2010 - January 2012

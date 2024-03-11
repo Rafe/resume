@@ -6,9 +6,9 @@
     %meta(name="keywords" content="#{keywords}")
     %link(rel="stylesheet" href="screen.css" media="screen" type="text/css")
     %link(rel="stylesheet" href="print.css" media="print" type="text/css")
+    %link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css")
   %body
-    = resume
-
+    != resume
 
     %div.links
       %p
@@ -16,8 +16,8 @@
       %p
         %a(href="resume.txt") Download as txt
 
-    %a.github-link(href="#{ url }")
-      %img(style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub")
+    %a.github-fork-ribbon(href="#{ url }" data-ribbon="Fork me on GitHub" title="Fork me on GitHub")
+      = "Fork me on GitHub"
 
     :javascript
       var _gaq = _gaq || [];
